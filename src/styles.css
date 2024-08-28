@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .landing-page {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .product-listing-page .category {
+    margin: 20px;
+  }
+  
+  .plant {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .plant img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .shopping-cart-page .cart-items {
+    margin: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .cart-item button {
+    margin: 0 5px;
+  }
+  
