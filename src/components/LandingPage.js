@@ -1,17 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './styles.css'; // Import the external CSS file
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      <img src="background.jpg" alt="Background" className="background-image" />
-      <div className="content">
-        <h1>Our Company</h1>
-        <p>We offer a variety of houseplants to brighten up your home.</p>
-        <Link to="/products">
-          <button>Get Started</button>
-        </Link>
-      </div>
+    <div>
+      <header>
+        <h1>Plant Paradise</h1>
+        <a href="cart.html" className="cart-icon">
+          <span id="cart-count">0</span>
+        </a>
+      </header>
+      <section className="landing">
+        <div className="content">
+          <h2>Welcome to Plant Paradise</h2>
+          <p>
+            At Plant Paradise, we are passionate about helping you create a vibrant and inviting space with our wide selection of houseplants. Whether you're a seasoned plant enthusiast or just starting out, our curated collection features plants that are perfect for every home. Discover unique and beautiful plants that will bring life to any room and enjoy our expert advice on how to care for them.
+          </p>
+          <a href="products.html" className="btn-get-started">Get Started</a>
+        </div>
+      </section>
     </div>
   );
 };
